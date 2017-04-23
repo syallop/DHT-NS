@@ -1,0 +1,48 @@
+name:                Examples
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Samuel A. Yallop
+maintainer:          syallop@gmail.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable Registerer
+  main-is:             Registerer.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base
+                     , network
+                     , DHT
+                     , DHT-NS
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+  ghc-options: -threaded
+
+executable Bootstrap
+  main-is:             Bootstrap.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base
+                     , network
+                     , DHT
+                     , DHT-NS
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+  ghc-options: -threaded
+
+executable Lookuper
+  main-is:             Lookuper.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base
+                     , network
+                     , DHT
+                     , DHT-NS
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
+  ghc-options: -threaded
