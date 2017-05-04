@@ -1,7 +1,9 @@
 resolver: lts-8.9
 packages:
 - .
-- location: https://github.com/syallop/DHT/archive/master.zip
+- location:
+    git: https://github.com/syallop/DHT.git
+    commit: 11040d7b77856002c60970ca1dee2668b97577a8
   extra-dep: true
 extra-deps:
 flags: {}
